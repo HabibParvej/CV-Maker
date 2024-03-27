@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* CSS styles for the resume editor interface */
+#resume-editor {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea, select, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    width: auto;
+    display: inline-block;
+    padding: 5px 10px;
+}

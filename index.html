@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Resume editor interface -->
+    <div id="resume-editor">
+        <!-- Input fields for resume details -->
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="text" id="email" placeholder="Email">
+        <textarea id="experience" placeholder="Experience"></textarea>
+
+        <!-- Template selection -->
+        <select id="template">
+            <option value="template1">Template 1</option>
+            <option value="template2">Template 2</option>
+            <option value="template3">Template 3</option>
+        </select>
+
+        <!-- Buttons for preview and download -->
+        <button onclick="previewResume()">Preview</button>
+        <button onclick="downloadResume()">Download</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
